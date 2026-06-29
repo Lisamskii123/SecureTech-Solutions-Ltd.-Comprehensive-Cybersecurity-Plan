@@ -1,0 +1,254 @@
+# Sensitive Information - NEVER COMMIT
+*.key
+*.pem
+*.pfx
+*.p12
+*.keystore
+*.jks
+
+# Credentials and Secrets
+.env
+.env.local
+.env.*.local
+secrets.txt
+credentials.txt
+passwords.xlsx
+api_keys.txt
+config/secrets/*
+!config/secrets/.gitkeep
+
+# API Keys and Tokens
+.apikey
+.api_key
+*_token
+*_secret
+*_key
+bearer_token
+jwt_token
+
+# Database Files and Backups
+*.db
+*.sqlite
+*.sqlite3
+*.bak
+*.backup
+dump.sql
+*.sql.gz
+
+# AWS, Azure, GCP Credentials
+aws_credentials
+azure_credentials
+gcp_credentials
+.aws/
+.azure/
+.gcloud/
+
+# SSH and SSL Certificates
+*.cert
+*.crt
+.ssh/
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.venv/
+venv/
+ENV/
+env/
+
+# Node/npm
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.sublime-project
+.sublime-workspace
+.DS_Store
+*.code-workspace
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+local.properties
+
+# OS-specific
+.DS_Store
+Thumbs.db
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Build Artifacts
+build/
+dist/
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Test Coverage
+coverage/
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+docker/secrets/
+
+# Certificates and Keys (encryption)
+*.der
+*.csr
+*.p7b
+*.p7c
+*.p7m
+*.p7r
+*.p7s
+*.spc
+
+# Microsoft Office Temporary
+~$*.xlsx
+~$*.docx
+~$*.pptx
+
+# Confidential Documents
+CONFIDENTIAL/
+private/
+internal/
+secrets/
+
+# Vendor and Dependencies
+/vendor/
+/Vendor/
+node_modules/
+packages/
+
+# OS Specific Folder Names
+$RECYCLE.BIN/
+.Trash/
+Desktop.ini
+
+# Visual Studio
+.vs/
+.vscode/
+*.suo
+*.user
+*.userprefs
+*.sln.docstates
+
+# IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Jenkins
+.jenkinsfile.local
+
+# Terraform (if infrastructure as code)
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+override.tf
+
+# Helm (if using Kubernetes)
+Chart.lock
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Sensitive Configuration Files
+config.yml
+config.yaml
+settings.ini
+local.conf
+secrets.conf
+
+# Logs and Runtime Data
+*.log
+logs/
+*.out
+*.pid
+
+# Mail files
+*.eml
+*.msg
+
+# Backup files
+*.bkp
+*.bak
+
+# Cache directories
+cache/
+.cache/
+__pycache__/
+
+# GPG encrypted files (keep track but don't commit decrypted versions)
+*.gpg
+*.asc
+
+# Windows
+*.lnk
+*.exe
+*.com
+*.bat
+*.cmd
+*.vbs
+*.ps1.bak
+
+# Linux/Unix
+*.o
+*.a
+*.so
+
+# macOS
+*.app
