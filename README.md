@@ -1,0 +1,2 @@
+# SecureTech-Solutions-Ltd.-Comprehensive-Cybersecurity-Plan
+This repository contains a comprehensive cybersecurity implementation plan developed for SecureTech Solutions Ltd., a simulated Nigerian IT company. The project demonstrates practical cybersecurity governance, risk management, network security, incident response, disaster recovery, compliance/security awareness aligned with industry best practices.
